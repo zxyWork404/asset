@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html
+  env="<%= VUE_APP_ENV %>"
+  updated="<%= require('moment')().format('YYYY-MM-DD HH:mm:ss') %>"
+  version="<%= require('../package.json').version %>"
+>
+<head>
+  <meta charset="utf-8">
+  <meta content="IE=edge" http-equiv="X-UA-Compatible">
+  <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, viewport-fit=cover"
+        name="viewport">
+  <link href="<%= BASE_URL %>favicon.ico" rel="icon">
+
+  <!--- cdn begin --->
+  <% if (process.env.NODE_ENV === 'production') { %>
+  <% for(var css of htmlWebpackPlugin.options.cdn.css) { %>
+  <link as="style" href="<%=css%>" rel="preload"/>
+  <link as="style" href="<%=css%>" rel="stylesheet"/>
+  <% } %> <% for(var js of htmlWebpackPlugin.options.cdn.js) { %>
+  <link as="script" href="<%=js%>" rel="preload"/>
+  <script src="<%=js%>"></script>
+  <% } %> <% } %>
+  <!--- cdn end --->
+
+  <!--- vconsole begin --->
+  <% if (process.env.NODE_ENV === 'development') { %>
+  <script src="https://cdn.bootcss.com/vConsole/3.3.4/vconsole.min.js"></script>
+  <% } %>
+  <!--- vconsole end --->
+
+  <script src="https://3gimg.qq.com/lightmap/components/geolocation/geolocation.min.js" type="text/javascript"></script>
+
+
+  <title><%= htmlWebpackPlugin.options.title %></title>
+</head>
+<body>
+<!--- 无脚本提示 --->
+<noscript>
+  <strong>
+    很抱歉，<%= htmlWebpackPlugin.options.title %> 在没有启用JavaScript的情况下无法正常工作，请联系技术人员，稍后重试！
+  </strong>
+</noscript>
+
+<div id="app"></div>
+
+</body>
+</html>
