@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<!-- 对应mapper接口的全类名 -->
+<mapper namespace="com.messages.receive.mapper.WorkMqMapper">
+    <insert id="insert">
+        INSERT INTO sx_template (openid, errcode, errmsg, msg, CREATE_TIME)
+        VALUES(#{openid}, #{errcode}, #{errmsg},#{msg},#{createTime});
+    </insert>
+</mapper>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/asset-admin.iml" filepath="$PROJECT_DIR$/asset-admin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/asset-admin-messages/asset-admin-messages.iml" filepath="$PROJECT_DIR$/asset-admin-messages/asset-admin-messages.iml" />
+      <module fileurl="file://$PROJECT_DIR$/asset-admin-receive/asset-admin-receive.iml" filepath="$PROJECT_DIR$/asset-admin-receive/asset-admin-receive.iml" />
+      <module fileurl="file://$PROJECT_DIR$/asset-admin-util/asset-admin-util.iml" filepath="$PROJECT_DIR$/asset-admin-util/asset-admin-util.iml" />
+      <module fileurl="file://$PROJECT_DIR$/asset-admin-web/asset-admin-web.iml" filepath="$PROJECT_DIR$/asset-admin-web/asset-admin-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/asset-admin-wechat-api/asset-admin-wechat-api.iml" filepath="$PROJECT_DIR$/asset-admin-wechat-api/asset-admin-wechat-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/asset-admin-web/sx-asset-admin/sx-asset-admin.iml" filepath="$PROJECT_DIR$/asset-admin-web/sx-asset-admin/sx-asset-admin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/asset-admin-web/sx-asset-common/sx-asset-common.iml" filepath="$PROJECT_DIR$/asset-admin-web/sx-asset-common/sx-asset-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/asset-admin-web/sx-asset-framework/sx-asset-framework.iml" filepath="$PROJECT_DIR$/asset-admin-web/sx-asset-framework/sx-asset-framework.iml" />
+      <module fileurl="file://$PROJECT_DIR$/asset-admin-web/sx-asset-generator/sx-asset-generator.iml" filepath="$PROJECT_DIR$/asset-admin-web/sx-asset-generator/sx-asset-generator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/asset-admin-web/sx-asset-quartz/sx-asset-quartz.iml" filepath="$PROJECT_DIR$/asset-admin-web/sx-asset-quartz/sx-asset-quartz.iml" />
+      <module fileurl="file://$PROJECT_DIR$/asset-admin-web/sx-asset-system/sx-asset-system.iml" filepath="$PROJECT_DIR$/asset-admin-web/sx-asset-system/sx-asset-system.iml" />
+    </modules>
+  </component>
+</project>
